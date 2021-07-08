@@ -63,7 +63,7 @@ select userid as '사용자', sum(price*amount) as '총구매액'
     group by userid
     having sum(price*amount) > 1000
     order by sum(price*amount);
-    
+
     
     
 select num, groupname, sum(price * amount) as '비용'
