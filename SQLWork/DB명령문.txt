@@ -1,0 +1,9 @@
+스키마 생성
+CREATE SCHEMA `shopdb` ; 
+
+테이블 생성
+CREATE TABLE `shopdb`.`membertbl` (
+  `memberID` CHAR(8) NOT NULL,
+  `memberName` CHAR(8) NOT NULL,
+  `memberAddress` CHAR(20) NULL); 
+
