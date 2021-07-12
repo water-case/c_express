@@ -430,7 +430,7 @@ void Problem10_14()
 			printf("\n");
 		}
 		BugPosition(tile, bugxy);
-		_sleep(100);
+		Sleep(100);
 		system("cls");
 	}
 
@@ -485,7 +485,7 @@ void Problem10_16()
 		if (_getch())
 			Move(hero, gold, monster);
 		system("cls");
-		_sleep(10);
+		Sleep(10);
 			
 		//break;
 	}
