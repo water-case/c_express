@@ -306,9 +306,108 @@ void problem1110() {
 
 // 5단계 1차원 배열
 void problem10818() {
+	int nList[1000000];
+	int n, i;
 
+	scanf("%d", &n);
+
+	for (i = 0; i < n; i++) {
+		scanf("%d", &nList[i]);
+	}
+
+	int max=-1000000, min=1000000;
+	for (i = 0; i < n; i++) {
+		if (max < nList[i])
+			max = nList[i];
+		if (min > nList[i])
+			min = nList[i];
+	}
+
+	printf("%d %d", min, max);
+
+}
+void problem2562() {
+	int n[9];
+	int i;
+
+	for (i = 0; i < sizeof(n) / sizeof(int); i++) {
+		scanf("%d", &n[i]);
+	}
+
+	int max = 0, count;
+	for (i = 0; i < sizeof(n) / sizeof(int); i++) {
+		if (max < n[i]) {
+			max = n[i];
+			count = i;
+		}
+	}
+
+	printf("%d\n%d", max, count+1);
+}
+void problem2577() {
+	int a, b, c, mul = 0;
+	int num[10] = { 0,0,0,0,0,0,0,0,0,0 };
+
+	scanf("%d\n%d\n%d", &a, &b, &c);
+
+	mul = a * b * c;
+
+	while (mul != 0) {
+		num[mul % 10] += 1;
+		mul = (int)(mul / 10);
+	}
+	int i;
+	for (i = 0; i < sizeof(num) / sizeof(int); i++) {
+		printf("%d\n", num[i]);
+	}
+}
+void problem3052() {
+	int num[10];
+	int count[42] = { 0, };
+	int i;
+
+	for (i = 0; i < 10; i++) 
+		scanf("%d", &num[i]);
+
+	for (i = 0; i < 10; i++) {
+		count[num[i]%42]++;
+	}
+	int diff = 0;
+	for (i = 0; i < 42; i++) {
+		if (count[i] != 0)
+			diff++;
+	}
+
+	printf("%d", diff);
+}
+void problem1546() {
+	double record[1000];
+	int n;
+	int i;
+
+	scanf("%d", &n);
+	for (i = 0; i < n; i++)
+		scanf("%lf", &record[i]);
+
+	int m = 0;
+	for (i = 0; i < n; i++) {
+		if (m < record[i])
+			m = record[i];
+	}
+
+	for (i = 0; i < n; i++) {
+		record[i] = (double)record[i] / m * 100;
+		printf("%lf\n", record[i]);
+	}
+
+	int sum = 0;
+	for (i = 0; i < n; i++) {
+		sum += record[i];
+	}
+
+	printf("%.2lf", (double)sum / n);
 }
 
 void Programs() {
-	problem1110();
+	problem1546();
 }
