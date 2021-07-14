@@ -1,23 +1,13 @@
-# 딕셔너리 : 키를 기반으로 값을 저장하는것
-dict_a = {
-    "name" : "어벤져스 엔드게임",
-    "type" : "히어로 무비"
-}
+# datetime 모듈
+#     date(날짜) 및 time(시간)과 관련된 모듈로, 날짜 형식을 만들 때 자주 사용되는 코드들로 구성
+import datetime
 
-print(dict_a["name"])
-
-dictionary = {
-    "name": "7D 건조 망고",
-    "type": "당절임",
-    "ingredient": ["망고","설탕","메타중아황상나트륨","치자황색소"],
-    "origin": "필리핀"
-}
-
-print("name: ", dictionary["name"])
-print("type: ", dictionary["type"])
-print("ingredient: ", dictionary["ingredient"])
-print("origin: ", dictionary["origin"])
+print("# 현재 시각 출력하기")
+now = datetime.datetime.now()
+print(now.year, "년")
+print(now.month,"월")
+print(now.day,"일")
+print(now.hour,"시")
+print(now.minute,"분")
+print(now.second,"초")
 print()
-
-dictionary["name"] = "8D 건조 망고"
-print("name: ", dictionary["name"])
