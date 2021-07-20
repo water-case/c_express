@@ -1,0 +1,4 @@
+﻿  Programs.c
+E:\GitStorage\c_express\C_Project_exercise\BaekJoon_Project\BaekJoon_Project\Programs.c(395,17): warning C4244: '=': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+E:\GitStorage\c_express\C_Project_exercise\BaekJoon_Project\BaekJoon_Project\Programs.c(405,19): warning C4244: '+=': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  BaekJoon_Project.vcxproj -> E:\GitStorage\c_express\C_Project_exercise\BaekJoon_Project\Debug\BaekJoon_Project.exe

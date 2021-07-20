@@ -156,6 +156,7 @@
     <ClCompile Include="..\..\C_Project_exercise\Exercise_Chap13.c" />
     <ClCompile Include="..\..\C_Project_exercise\MainProgram.c" />
     <ClCompile Include="..\..\C_Project_exercise\Print_Char_Exercise.c" />
+    <ClCompile Include="Exercise_Chap14.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\C_Project_exercise\TH_lib.h" />

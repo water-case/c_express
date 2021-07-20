@@ -57,6 +57,9 @@
     <ClCompile Include="Exercise_Chap13.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="Exercise_Chap14.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TH_lib.h">
