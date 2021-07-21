@@ -1,10 +1,15 @@
-﻿  Exercise_Chap14.c
+﻿  Exercise_Chap15.c
 E:\GitStorage\c_express\exCExpress\exCExpress\TH_lib_2.h(1,1): warning C4067: 전처리기 지시문 다음에 예기치 않은 토큰이 있습니다. 줄 바꿈 문자가 필요합니다.
-E:\GitStorage\c_express\exCExpress\exCExpress\Exercise_Chap14.c(109,10): warning C4098: 'Problem14_05': 'void' 함수에서 값을 반환하고 있습니다.
-E:\GitStorage\c_express\exCExpress\exCExpress\Exercise_Chap14.c(167,10): warning C4098: 'Problem14_07': 'void' 함수에서 값을 반환하고 있습니다.
-E:\GitStorage\c_express\exCExpress\exCExpress\Exercise_Chap14.c(143,1): warning C4047: '초기화 중': 'unsigned char *'의 간접 참조 수준이 'unsigned char (*)[2]'과(와) 다릅니다.
-E:\GitStorage\c_express\exCExpress\exCExpress\Exercise_Chap14.c(171,1): warning C4047: '초기화 중': 'int *'의 간접 참조 수준이 'int (*)[3]'과(와) 다릅니다.
-E:\GitStorage\c_express\exCExpress\exCExpress\Exercise_Chap14.c(172,1): warning C4047: '초기화 중': 'int *'의 간접 참조 수준이 'int (*)[3]'과(와) 다릅니다.
-E:\GitStorage\c_express\exCExpress\exCExpress\Exercise_Chap14.c(491,1): warning C4047: '초기화 중': 'int *'의 간접 참조 수준이 'int (*)[20]'과(와) 다릅니다.
-E:\GitStorage\c_express\exCExpress\exCExpress\Exercise_Chap14.c(492,1): warning C4047: '초기화 중': 'int *'의 간접 참조 수준이 'int (*)[20]'과(와) 다릅니다.
+E:\GitStorage\c_express\exCExpress\exCExpress\Exercise_Chap15.c(96,8): warning C4477: 'scanf' : 서식 문자열 '%s'에 'char *' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'char **'입니다.
+E:\GitStorage\c_express\exCExpress\exCExpress\Exercise_Chap15.c(97,21): warning C4047: '함수': 'const char *'의 간접 참조 수준이 'char *[100]'과(와) 다릅니다.
+E:\GitStorage\c_express\exCExpress\exCExpress\Exercise_Chap15.c(97,14): warning C4024: 'fopen': 형식 및 실제 매개 변수 1의 형식이 서로 다릅니다.
+E:\GitStorage\c_express\exCExpress\exCExpress\Exercise_Chap15.c(100,8): warning C4477: 'scanf' : 서식 문자열 '%s'에 'char *' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'char **'입니다.
+E:\GitStorage\c_express\exCExpress\exCExpress\Exercise_Chap15.c(101,21): warning C4047: '함수': 'const char *'의 간접 참조 수준이 'char *[100]'과(와) 다릅니다.
+E:\GitStorage\c_express\exCExpress\exCExpress\Exercise_Chap15.c(101,14): warning C4024: 'fopen': 형식 및 실제 매개 변수 1의 형식이 서로 다릅니다.
+E:\GitStorage\c_express\exCExpress\exCExpress\Exercise_Chap15.c(120,8): warning C4477: 'scanf' : 서식 문자열 '%s'에 'char *' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'char **'입니다.
+E:\GitStorage\c_express\exCExpress\exCExpress\Exercise_Chap15.c(121,26): warning C4047: '함수': 'const char *'의 간접 참조 수준이 'char *[100]'과(와) 다릅니다.
+E:\GitStorage\c_express\exCExpress\exCExpress\Exercise_Chap15.c(121,19): warning C4024: 'fopen': 형식 및 실제 매개 변수 1의 형식이 서로 다릅니다.
+E:\GitStorage\c_express\exCExpress\exCExpress\Exercise_Chap15.c(127,8): warning C4477: 'scanf' : 서식 문자열 '%s'에 'char *' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'char **'입니다.
+E:\GitStorage\c_express\exCExpress\exCExpress\Exercise_Chap15.c(128,26): warning C4047: '함수': 'const char *'의 간접 참조 수준이 'char *[100]'과(와) 다릅니다.
+E:\GitStorage\c_express\exCExpress\exCExpress\Exercise_Chap15.c(128,19): warning C4024: 'fopen': 형식 및 실제 매개 변수 1의 형식이 서로 다릅니다.
   exCExpress.vcxproj -> E:\GitStorage\c_express\exCExpress\Debug\exCExpress.exe

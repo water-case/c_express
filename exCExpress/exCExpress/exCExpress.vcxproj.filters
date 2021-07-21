@@ -54,6 +54,9 @@
     <ClCompile Include="MainProgram.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="Exercise_Chap15.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TH_lib.h">
