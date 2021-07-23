@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main() {
+int main(int argc, char* argv[]) {
 
 	//Calculation_Weight();
 	//Print_Char_Exercise();
@@ -20,7 +20,7 @@ int main() {
 	//Exercise_Chap12();
 	//Exercise_Chap13();
 	//Exercise_Chap14();
-	Exercise_Chap15();
+	Exercise_Chap15(argv);
 
 	return 0;
 }
