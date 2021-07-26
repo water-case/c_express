@@ -152,6 +152,7 @@
     <ClCompile Include="Exercise_Chap13.c" />
     <ClCompile Include="Exercise_Chap14.c" />
     <ClCompile Include="Exercise_Chap15.c" />
+    <ClCompile Include="Exercise_Chap16.c" />
     <ClCompile Include="MainProgram.c" />
   </ItemGroup>
   <ItemGroup>
