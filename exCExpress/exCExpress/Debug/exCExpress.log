@@ -1,3 +1,6 @@
-﻿  Exercise_Chap16.c
+﻿  Exercise_Chap17.c
 E:\GitStorage\c_express\exCExpress\exCExpress\TH_lib_2.h(1,1): warning C4067: 전처리기 지시문 다음에 예기치 않은 토큰이 있습니다. 줄 바꿈 문자가 필요합니다.
+E:\GitStorage\c_express\exCExpress\exCExpress\Exercise_Chap17.c(84,6): warning C4013: 'gets'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+E:\GitStorage\c_express\exCExpress\exCExpress\Exercise_Chap17.c(131,10): warning C4098: 'Problem17_05': 'void' 함수에서 값을 반환하고 있습니다.
+E:\GitStorage\c_express\exCExpress\exCExpress\Exercise_Chap17.c(259,6): warning C4101: 'i' :참조되지 않은 지역 변수입니다.
   exCExpress.vcxproj -> E:\GitStorage\c_express\exCExpress\Debug\exCExpress.exe

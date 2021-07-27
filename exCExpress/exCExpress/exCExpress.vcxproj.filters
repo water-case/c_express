@@ -60,6 +60,9 @@
     <ClCompile Include="Exercise_Chap16.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="Exercise_Chap17.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TH_lib.h">

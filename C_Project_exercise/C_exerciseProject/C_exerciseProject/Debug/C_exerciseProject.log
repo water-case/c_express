@@ -1,8 +1,0 @@
-﻿  Exercise_Chap13.c
-E:\GitStorage\c_express\C_Project_exercise\C_Project_exercise\TH_lib_2.h(1,1): warning C4067: 전처리기 지시문 다음에 예기치 않은 토큰이 있습니다. 줄 바꿈 문자가 필요합니다.
-E:\GitStorage\c_express\C_Project_exercise\C_Project_exercise\Exercise_Chap13.c(373,12): warning C4098: 'Problem13_14': 'void' 함수에서 값을 반환하고 있습니다.
-  MainProgram.c
-E:\GitStorage\c_express\C_Project_exercise\C_Project_exercise\MainProgram.c(22,17): warning C4013: 'Exercise_Chap14'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
-  Exercise_Chap14.c
-E:\GitStorage\c_express\C_Project_exercise\C_exerciseProject\C_exerciseProject\Exercise_Chap14.c(1,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'TH_lib_2.h': No such file or directory
-  코드를 생성하고 있습니다...
