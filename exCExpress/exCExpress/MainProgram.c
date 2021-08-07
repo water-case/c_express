@@ -21,7 +21,8 @@ int main(int argc, char* argv[]) {
 	//Exercise_Chap13();
 	//Exercise_Chap14();
 	//Exercise_Chap16(argv);
-	Exercise_Chap17();
+	//Exercise_Chap17();
+	test1();
 
 	return 0;
 }
